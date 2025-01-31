@@ -1,0 +1,10 @@
+1) Ao final do processamento, o valor da variável SOMA será 91. Pois:
+K começa com 0, o loop while executa enquanto K < 13, e a cada iteração K é incrementado em 1, o valor de K é adicionado a SOMA e o loop para quando K atinge 13. Com isso, a soma dos números de 1 a 13 ao final a soma será 91.
+
+Código:
+int INDICE = 13, SOMA = 0, K = 0;
+while (K < INDICE) {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
+cout << SOMA;
